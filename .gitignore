@@ -1,0 +1,12 @@
+.classpath
+.project
+.settings
+.vim
+.gradle
+build
+chromedrivers
+apps/TheApp.ipa
+validations
+trace.zip
+*.trace
+apps
