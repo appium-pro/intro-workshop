@@ -2,8 +2,8 @@ package com.appiumpro.intro_workshop;
 
 import org.junit.jupiter.api.Test;
 
-import io.cloudgrey.ap_workshop.ProjectCapabilities;
-import io.cloudgrey.ap_workshop.TestBase;
+import com.appiumpro.intro_workshop.ProjectCapabilities;
+import com.appiumpro.intro_workshop.TestBase;
 
 public class AndroidCapabilitiesTest extends TestBase {
 

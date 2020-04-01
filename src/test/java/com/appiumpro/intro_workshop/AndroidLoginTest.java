@@ -6,8 +6,8 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
 import io.appium.java_client.MobileBy;
-import io.cloudgrey.ap_workshop.ProjectCapabilities;
-import io.cloudgrey.ap_workshop.TestBase;
+import com.appiumpro.intro_workshop.ProjectCapabilities;
+import com.appiumpro.intro_workshop.TestBase;
 
 public class AndroidLoginTest extends TestBase {
 
