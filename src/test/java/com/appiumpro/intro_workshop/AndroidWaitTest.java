@@ -18,7 +18,8 @@ public class AndroidWaitTest extends TestBase {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.presenceOfElementLocated(
             MobileBy.AccessibilityId("Login Screen"))).click();
-        driver.findElement(MobileBy.AccessibilityId("username")).sendKeys("alice");
+        wait.until(ExpectedConditions.presenceOfElementLocated(
+            MobileBy.AccessibilityId("username"))).sendKeys("alice");
         driver.findElement(MobileBy.AccessibilityId("password")).sendKeys("mypassword");
         driver.findElement(MobileBy.AccessibilityId("loginBtn")).click();
 
