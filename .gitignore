@@ -10,3 +10,4 @@ validations
 trace.zip
 *.trace
 apps
+.idea
